@@ -8,8 +8,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: '#EDF6FF',
+        text: '#333333',
+        accent: '#888888',
+      },
+      fontFamily: {
+        spectral: ['Spectral', 'serif'],
       },
     },
   },
